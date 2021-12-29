@@ -1,0 +1,12 @@
+body{
+    background: #bcbed4;
+    margin: 0;
+    padding: 1rem 6rem;
+    font-family: Helvetica, sans-serif;
+}
+main{
+    background-image: url("../images/banner_error_404.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 16rem;
+}

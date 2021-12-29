@@ -1,0 +1,14 @@
+body{
+    background-image: url("../images/addSports.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 1rem 5rem;
+    font-family: Helvetica, sans-serif;
+}
+
+form {
+    width: 40%;
+    text-align: center;
+    display: inline-block;
+}

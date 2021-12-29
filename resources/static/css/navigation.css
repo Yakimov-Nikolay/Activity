@@ -1,0 +1,50 @@
+body{
+    background: #6676a7;
+    margin: 0;
+    padding: 1rem 6rem;
+    font-family: Helvetica, sans-serif;
+}
+.navigation{
+    width: 100%;
+    background-color: aqua;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+ul li{
+    float: left;
+    margin-top: 20px;
+
+}
+ul li a{
+    width: 150px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    /* font-family: Century Gothic; */
+    font-weight: bold;
+
+}
+a:hover{
+    background: #669900;
+}
+ul li ul{
+    background: #000033;
+}
+ul li ul li{
+    float: none;
+}
+ul li ul{
+    display: none;
+}
+ul li:hover ul{
+    display: block;
+}
